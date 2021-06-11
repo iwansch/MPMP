@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Конфигурация для testNG фреймворка-->
+<suite name="Filtering" verbose="1"
+       parallel="tests" data-provider-thread-count="2"
+><!-- verbose - уровень подробности отчета отестах от 1 до 10-->
+<!--    <test name="Tests Chrome">-->
+<!--        <parameter name="browser" value="chrome" />-->
+<!--        <classes>-->
+<!--            <class name="ReadingLetters" />-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Just Reading">
+<!--        <parameter name="browser" value="firefox" />-->
+        <classes>
+            <class name="ReadingLetters" >
+            <methods>
+                <include name="letters" />
+                <include name="surfing" />
+<!--                <exclude name="tasks" />-->
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+<!--    <test name="Group of group Test">-->
+<!--        <groups>-->
+<!--            <define name="include-group">-->
+<!--                <include name="include-test-one" />-->
+<!--                <include name="include-test-two" />-->
+<!--            </define>-->
+<!--            <define name="exclude-group">-->
+<!--                <include name="test-one-exclude" />-->
+<!--                <include name="test-two-exclude" />-->
+<!--            </define>-->
+<!--            <run>-->
+<!--                <include name="include-group" />-->
+<!--                <exclude name="exclude-group" />-->
+<!--            </run>-->
+<!--        </groups>-->
+<!--        <classes>-->
+<!--            <class name="ReadingLetters" />-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
