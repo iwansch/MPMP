@@ -11,7 +11,7 @@ public class ReadingLetters {
     @BeforeClass()
     public static void setUp() {
         Configuration.headless = false;
-        Configuration.startMaximized = true;
+        Configuration.startMaximized = false;
         Configuration.timeout = 60000;
         baseUrl = ("http://wmmail.ru");
     }
