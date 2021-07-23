@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Filtering" duration-ms="30197" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:29:16 EEST">
+  <suite started-at="2021-07-23T18:53:41 EEST" name="Filtering" finished-at="2021-07-23T18:54:52 EEST" duration-ms="71196">
     <groups>
     </groups>
-    <test name="Just Reading" duration-ms="30197" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:29:16 EEST">
+    <test started-at="2021-07-23T18:53:41 EEST" name="Just Reading" finished-at="2021-07-23T18:54:52 EEST" duration-ms="71196">
       <class name="ReadingLetters">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:ReadingLetters@1f28c152]" name="setUp" is-config="true" duration-ms="31" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:28:45 EEST">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:53:41 EEST" name="setUp" finished-at="2021-07-23T18:53:41 EEST" duration-ms="28" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="15757" started-at="2021-07-05T21:28:46 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:02 EEST">
+        <test-method signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:53:41 EEST" name="letters" data-provider="Credentials" finished-at="2021-07-23T18:53:56 EEST" duration-ms="14700" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- letters -->
-        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="3395" started-at="2021-07-05T21:29:02 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:06 EEST">
+        <test-method signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:53:56 EEST" name="letters" data-provider="Credentials" finished-at="2021-07-23T18:53:59 EEST" duration-ms="2961" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- letters -->
-        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="2773" started-at="2021-07-05T21:29:06 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:08 EEST">
+        <test-method signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:53:59 EEST" name="letters" data-provider="Credentials" finished-at="2021-07-23T18:54:02 EEST" duration-ms="3173" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,7 +59,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- letters -->
-        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2329" started-at="2021-07-05T21:29:08 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:11 EEST">
+        <test-method signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:54:02 EEST" name="surfing" data-provider="Credentials" finished-at="2021-07-23T18:54:45 EEST" duration-ms="42867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfing -->
-        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2297" started-at="2021-07-05T21:29:11 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:13 EEST">
+        <test-method signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:54:45 EEST" name="surfing" data-provider="Credentials" finished-at="2021-07-23T18:54:49 EEST" duration-ms="3306" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- surfing -->
-        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2545" started-at="2021-07-05T21:29:13 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:16 EEST">
+        <test-method signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@49e202ad]" started-at="2021-07-23T18:54:49 EEST" name="surfing" data-provider="Credentials" finished-at="2021-07-23T18:54:52 EEST" duration-ms="3201" status="PASS">
           <params>
             <param index="0">
               <value>
