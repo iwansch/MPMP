@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="7" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Filtering" duration-ms="30197" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:29:16 EEST">
+    <groups>
+    </groups>
+    <test name="Just Reading" duration-ms="30197" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:29:16 EEST">
+      <class name="ReadingLetters">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ReadingLetters@1f28c152]" name="setUp" is-config="true" duration-ms="31" started-at="2021-07-05T21:28:45 EEST" finished-at="2021-07-05T21:28:45 EEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="15757" started-at="2021-07-05T21:28:46 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:02 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sigrom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[morgissigrom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letters -->
+        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="3395" started-at="2021-07-05T21:29:02 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:06 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iwanschwm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Navi1891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letters -->
+        <test-method status="PASS" signature="letters(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="letters" duration-ms="2773" started-at="2021-07-05T21:29:06 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:08 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vladbak71]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vani1891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- letters -->
+        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2329" started-at="2021-07-05T21:29:08 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:11 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sigrom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[morgissigrom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfing -->
+        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2297" started-at="2021-07-05T21:29:11 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:13 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iwanschwm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Navi1891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfing -->
+        <test-method status="PASS" signature="surfing(java.lang.String, java.lang.String)[pri:0, instance:ReadingLetters@1f28c152]" name="surfing" duration-ms="2545" started-at="2021-07-05T21:29:13 EEST" data-provider="Credentials" finished-at="2021-07-05T21:29:16 EEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vladbak71]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vani1891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- surfing -->
+      </class> <!-- ReadingLetters -->
+    </test> <!-- Just Reading -->
+  </suite> <!-- Filtering -->
+</testng-results>

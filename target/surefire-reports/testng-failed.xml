@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Filtering]" parallel="tests" data-provider-thread-count="2">
+  <test thread-count="5" verbose="0" name="Just Reading(failed)" parallel="tests">
+    <classes>
+      <class name="ReadingLetters">
+        <methods>
+          <include name="letters" invocation-numbers="0 1 2"/>
+          <include name="setUp"/>
+          <include name="surfing" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- ReadingLetters -->
+    </classes>
+  </test> <!-- Just Reading(failed) -->
+</suite> <!-- Failed suite [Filtering] -->
