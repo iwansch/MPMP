@@ -10,7 +10,7 @@ public class ReadingLetters {
     private static LoginPage LoginPage;
     @BeforeClass()
     public static void setUp() {
-        Configuration.headless = false;
+        Configuration.headless = true;
         Configuration.startMaximized = false;
         Configuration.timeout = 60000;
         Configuration.pageLoadStrategy = "none";
