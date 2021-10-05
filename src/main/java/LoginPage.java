@@ -1,5 +1,7 @@
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+
 import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
@@ -11,6 +13,9 @@ public class LoginPage {
         public MainPage login(String email, String password) {
 
             Selenide.open("");
+            System.out.println("now");
+            Selenide.sleep(2000);
+            Selenide.actions().sendKeys(Keys.chord(Keys.COMMAND, Keys.ARROW_DOWN));
             $(loginField).val(email);
             $(passwordField).val(password);
             $(loginButton).click();

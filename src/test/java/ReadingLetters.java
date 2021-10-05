@@ -13,6 +13,7 @@ public class ReadingLetters {
         Configuration.headless = false;
         Configuration.startMaximized = false;
         Configuration.timeout = 60000;
+        Configuration.pageLoadStrategy = "none";
         baseUrl = ("http://wmmail.ru");
     }
 
