@@ -11,7 +11,7 @@ public class ReadingLetters {
     @BeforeClass()
     public static void setUp() {
         Configuration.headless = true;
-        Configuration.startMaximized = false;
+        Configuration.startMaximized = true;
         Configuration.timeout = 60000;
         Configuration.pageLoadStrategy = "none";
         baseUrl = ("http://wmmail.ru");
@@ -54,7 +54,7 @@ public class ReadingLetters {
         System.out.println("$$$lastBalance = "+lastBalance);
         System.out.println();
         System.out.println("Reading letters for <"+login+"> is completed!");
-        System.out.println("Balance increases on "+(String.format("%.1f", (lastBalance - previousBalance)*1000))+"¢ = "+(String.format("%.2f", (lastBalance - previousBalance)*2400))+"kon.");
+        System.out.println("\033[0;1m" + "Balance increases on "+(String.format("%.1f", (lastBalance - previousBalance)*1000))+"¢ = "+(String.format("%.2f", (lastBalance - previousBalance)*2400))+"kon.");
     }
 
     @Test(dataProvider = "Credentials")
